@@ -1,0 +1,57 @@
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.logo{
+  margin-bottom: 1%;
+}
+
+input{
+  height: 2.5vw;
+  font-family: Arial;
+  font-size: 18px;
+  padding-left: 15px;
+  margin-left: 12%;
+  margin-bottom: 3%
+}
+
+.button, .button1{
+  font-size: 16px;
+  color: grey;
+  width: 200px;
+  padding-top: 2px;
+  padding-left: 0;
+  border: 1px solid grey;
+  margin-left: 15%;
+}
+
+li{
+  border: 1px solid red;
+  background: grey;
+  color: yellow;
+  padding: 3px 3px 3px 10px;
+  width: 450px;
+  list-style-type: none;
+  margin-left: -140px;
+  margin-bottom: -15px;
+}
+
+h3{
+  margin-left: -140px;
+  margin-bottom: -7px;
+  margin-top: -5px;
+}
+
+figure{
+  width: 100%;
+  margin: 0;
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
